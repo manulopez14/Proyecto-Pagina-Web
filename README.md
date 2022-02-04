@@ -33,9 +33,10 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 ## Autores ✒️
 
 * **Manuel López Rojas** - *Jefe de proyecto* - [villanuevand](https://github.com/manulopez14)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
+* **Lucía Cristiani Valenzuela** - *Miembro del proyecto* - [luciluci8](https://github.com/luciluci8)
+* **Ángel Contreras Jiménez** - *Miembro del proyecto* - [Acontreras2k](https://github.com/acontreras2k)
+* **Diego Castilla Sáez** - *Miembro del proyecto* - [Diegocs02](https://github.com/diegocs02)
+* **Lucía Domínguez Vera** - *Miembro del proyecto* - [LuciaZaidinvergeles](https://github.com/luciazaidinvergeles)
 
 También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
 
@@ -45,7 +46,4 @@ Este proyecto está bajo la Licencia Apache 2.0.
 
 ## Expresiones de Gratitud 🎁
 
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* A Victor Manuel Montero por su docencia.
