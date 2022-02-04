@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f1efe8;
+
+
+}
+
+div{
+    background-color: #143951;
+
+
+}
+
+.AsiaNation{
+    font-family: 'Quintessential', cursive;
+    font-size: 50px;
+
+
+}
+
+
+.titulo{
+
+    font-family: 'Tangerine', cursive;
+
+}
+
+p{
+    font-family: 'Cormorant Garamond', serif;
+
+}
+
+nav{
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    margin-top: 50px;
+    
+
+}
+
+.MenuH{
+   list-style: none;
+   display: flex;
+   justify-content: space-around;
+   color: white;
+
+}
+
+.MenuH > li > a{
+   display: block;
+   padding: 15px 20px;
+   text-decoration: none;
+   color: white;
+
+}
+
+.MenuV{
+position: absolute;
+justify-content: space-around;
+display: none;
+padding: 15px 20px;
+list-style: none;
+width: 150px;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.MenuH > li:hover .MenuV{
+display: block;
+
+}
+.MenuV > li:hover{
+    padding: 5px, 5px, 5px, 5px;
+background-color: black;
+
+}
+.MenuV > li > a{
+display: block;
+color: white;
+padding: 15px, 15px, 15px, 20px;
+text-decoration: none;
+
+}
+
+
