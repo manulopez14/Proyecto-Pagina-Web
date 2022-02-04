@@ -32,7 +32,7 @@ Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones
 
 ## Autores ✒️
 
-* **Manuel López Rojas** - *Jefe de proyecto* - [villanuevand](https://github.com/manulopez14)
+* **Manuel López Rojas** - *Jefe de proyecto* - [manulopez14](https://github.com/manulopez14)
 * **Lucía Cristiani Valenzuela** - *Miembro del proyecto* - [luciluci8](https://github.com/luciluci8)
 * **Ángel Contreras Jiménez** - *Miembro del proyecto* - [Acontreras2k](https://github.com/acontreras2k)
 * **Diego Castilla Sáez** - *Miembro del proyecto* - [Diegocs02](https://github.com/diegocs02)
