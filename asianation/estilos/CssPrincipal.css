@@ -12,7 +12,9 @@ body{
 
 div{
     background-color: #143951;
-
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
 
 }
 
@@ -32,8 +34,16 @@ div{
 
 p{
     font-family: 'Cormorant Garamond', serif;
+    font-size: 60px;
+    text-align: center;
 
 }
+
+p > a{
+
+    color: cyan;
+}
+
 
 nav{
     max-width: 800px;
@@ -85,6 +95,18 @@ display: block;
 color: white;
 padding: 15px, 15px, 15px, 20px;
 text-decoration: none;
+
+}
+
+.void{
+background-image: url("../imagenes/empty.png");
+width: 10px;
+height: 10px;
+
+}
+td > img{
+    width: 400px;
+    height: 400px;
 
 }
 
