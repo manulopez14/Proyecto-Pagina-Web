@@ -4,6 +4,31 @@
     <meta charset="UTF-8">
   
 <title>AsiaNation Encuesta de Satisfacción</title>
+<link rel="stylesheet" type= "text/css" href="estilos/CssPrincipal.css">
+<style>
+             @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+
+    h1{
+        font-family: 'tangerine';
+    }
+    h3{
+        font-family: 'Cormorant Garamond', serif;
+    }
+    body{
+        background-color: rgb(236, 176, 103);
+        border: 5px rgb(95, 74, 50) double;
+        margin-left: 30px;
+        padding: 2em;
+    }
+    div{
+        margin: 20px;
+        border: 8px rgb(88, 85, 56) double;
+        padding: 20px;
+        width: 50%;
+    }
+</style>
 </head>
 <body>
     <h1>AsiaNation Encuesta de Satisfacción</h1> 
@@ -16,15 +41,85 @@
     <input type="radio" name="est" value="De vez en cuando" />De vez en cuando <br />
     <input type="radio" name="est" value="Es la primera vez" /> Es la primera vez <br />
     <input type="radio" name="est" value="Otro" /> Otro
-	<input type="text" name="nombre" placeholder="Max. caracteres: 100" size="100" maxlength="100"/>
+	<input type="text" name="nombre" placeholder="Max. caracteres: 100" size="100" maxlength="100"/><br/> <br/>
     <br/>
 
     <h3>¿Cuál es tu nivel de satisfacción?</h3>
     <br/>
 		
-          <input type="checkbox" name="nombre"  value="Muy satisfecho"/> Muy satisfecho &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="checkbox" name="nombre"  value="Muy satisfecho" checked= checked/> Muy satisfecho <br/>
           <input type="checkbox" name="nombre"  value="Satisfecho"/> Satisfecho <br/>
           <input type="checkbox" name="nombre"  value="Poco satisfecho" /> Poco satisfecho <br/>
-          <input type="checkbox" name="nombre"  value="Nada satisfecho" /> Nada satisfecho <br/>
+          <input type="checkbox" name="nombre"  value="Nada satisfecho" /> Nada satisfecho <br/><br/>
+
+    
+    
+    <h3>Evalúe estos aspectos</h3>
+
+    <div> <
+                   <p style="margin-left: 10%;"> 1 2 3 4 5</p> 
+    La limpieza       <input type="radio" name="est" value="1"  />  
+                          <input type="radio" name="est" value="2" />
+                       <input type="radio" name="est" value="3" />
+                      <input type="radio" name="est" value="4" />  
+                       <input type="radio" name="est" value="5" /> <br/><br/><br/>
+
+
+      La variedad	<input type="radio" name="est" value="1"  />  
+                 <input type="radio" name="est" value="2" />
+                  <input type="radio" name="est" value="3" />
+                 <input type="radio" name="est" value="4" />  
+                 <input type="radio" name="est" value="5" /> <br/><br/><br/>
+
+
+
+
+
+    El sabor	<input type="radio" name="est" value="1"  />  
+                 <input type="radio" name="est" value="2" />
+                <input type="radio" name="est" value="3" />
+                 <input type="radio" name="est" value="4" />  
+                <input type="radio" name="est" value="5" /> <br/><br/><br/>
+                       
+                       
+                       
+                       
+                       
+    Las porciones	<input type="radio" name="est" value="1"  />  
+                     <input type="radio" name="est" value="2" />
+                    <input type="radio" name="est" value="3" />
+                   <input type="radio" name="est" value="4" />  
+                      <input type="radio" name="est" value="5" /> <br/><br/><br/>
+                       
+        
+                       
+                       
+                       
+                       
+                       
+ La presentación   <input type="radio" name="est" value="1"  />  
+                <input type="radio" name="est" value="2" />
+                <input type="radio" name="est" value="3" />
+                <input type="radio" name="est" value="4" />  
+                <input type="radio" name="est" value="5" /> <br/><br/><br/>
+
+
+
+    Los precios   <input type="radio" name="est" value="1"  />  
+                 <input type="radio" name="est" value="2" />
+                 <input type="radio" name="est" value="3" />
+              <input type="radio" name="est" value="4" />  
+             <input type="radio" name="est" value="5" /> <br/>
+
+    </div>
+
+    <h3>¿Tienes algún comentario o sugerencia?</h3>
+
+    <fieldset style="width: 300px; margin-left: 20px;">
+    <legend> Escribe con amor </legend>
+				<label for="descripcion"></label> <br/>
+				<textarea id="descripcion" name="descripcion" cols="60" rows="5"></textarea><br /><br />		
+			</fieldset>
+
 </body>
 </html>

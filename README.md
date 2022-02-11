@@ -22,14 +22,6 @@ El proyecto es una página web, solo hay que abrir el archivo .html principal.
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código fuente utilizado
 * [Sublime Text](https://www.sublimetext.com/) - Editor de código fuente alternativo.
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
 ## Autores ✒️
 
 * **Manuel López Rojas** - *Jefe de proyecto* - [manulopez14](https://github.com/manulopez14)
