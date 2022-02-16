@@ -16,6 +16,7 @@
     h1{
         font-family: 'tangerine';
         font-size: 70px;
+        text-align: center;
     }
     h3{
         font-family: 'Cormorant Garamond', serif;
@@ -45,13 +46,18 @@
         font-weight: bolder;
         font-size: larger;
         color: rgb(202, 133, 41);
+        font-family: 'Cormorant Garamond', serif;
     }
    th{
         border: 1px orange dotted;
     }
     td{
         text-align: right;
+        font-family: 'Cormorant Garamond', serif;
         
+    }
+    input{
+        font-family: 'Cormorant Garamond', serif;
     }
 </style>
 </head>
@@ -66,16 +72,16 @@
     <input type="radio" name="est" value="De vez en cuando" />De vez en cuando <br />
     <input type="radio" name="est" value="Es la primera vez" /> Es la primera vez <br />
     <input type="radio" name="est" value="Otro" /> Otro
-	<input type="text" name="nombre" placeholder="Max. caracteres: 100" size="100" maxlength="100"/><br/> <br/>
+	<input type="text" name="nombre" placeholder="Max. caracteres: 100" size="70" maxlength="100"/><br/> <br/>
     <br/>
 
     <h3>¿Cuál es tu nivel de satisfacción?</h3>
     <br/>
 		
-          <input type="checkbox" name="nombre"  value="Satisfecho" /> Muy satisfecho <br/>
-          <input type="checkbox" name="nombre"  value="Satisfecho"/> Satisfecho <br/>
-          <input type="checkbox" name="nombre"  value="Poco satisfecho" /> Poco satisfecho <br/>
-          <input type="checkbox" name="nombre"  value="Nada satisfecho" /> Nada satisfecho <br/><br/>
+          <input type="radio" name="nombre"  value="Satisfecho" /> Muy satisfecho <br/>
+          <input type="radio" name="nombre"  value="Satisfecho"/> Satisfecho <br/>
+          <input type="radio" name="nombre"  value="Poco satisfecho" /> Poco satisfecho <br/>
+          <input type="radio" name="nombre"  value="Nada satisfecho" /> Nada satisfecho <br/><br/>
 
     
     
