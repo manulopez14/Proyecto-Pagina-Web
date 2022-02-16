@@ -9,26 +9,39 @@
                 @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
                 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+    
+        
+    
 
     h1{
         font-family: 'tangerine';
+        font-size: 70px;
     }
     h3{
         font-family: 'Cormorant Garamond', serif;
+        font-size: x-large;
     }
     body{
         background-color: rgb(236, 176, 103);
         border: 5px rgb(95, 74, 50) double;
-        margin-left: 30px;
+        
         padding: 2em;
         background-image: url(imagenes/india/fotolado.jpg);
+        background-image: ;
+        font-weight: bolder;
+        font-size: x-large;
+        backdrop-filter: url(commonfilters.svg#filter);
+        backdrop-filter: blur(2px);
+        backdrop-filter: brightness(60%);
+        backdrop-filter: contrast(40%);  
         
     }
     div{
+        
         margin: 20px;
         border: 8px rgb(88, 85, 56) double;
         padding: 20px;
-        width: 50%;
+        width: 70%;
         font-weight: bolder;
         font-size: larger;
         color: rgb(202, 133, 41);
@@ -59,7 +72,7 @@
     <h3>¿Cuál es tu nivel de satisfacción?</h3>
     <br/>
 		
-          <input type="checkbox" name="nombre"  value="Satisfecho" checked= checked/> Muy satisfecho <br/>
+          <input type="checkbox" name="nombre"  value="Satisfecho" /> Muy satisfecho <br/>
           <input type="checkbox" name="nombre"  value="Satisfecho"/> Satisfecho <br/>
           <input type="checkbox" name="nombre"  value="Poco satisfecho" /> Poco satisfecho <br/>
           <input type="checkbox" name="nombre"  value="Nada satisfecho" /> Nada satisfecho <br/><br/>
@@ -68,11 +81,11 @@
     
     <h3>Evalúe estos aspectos</h3>
 
-    <div > <table style="border: none; height: fit-content; width: auto; cell;" cellspacing="30" >
+    <div > <table style="border: none; height: fit-content; width: 800px;" cellspacing="30" >
        
         <tr>
 
-            <th>1-Muy mal <br/> 5-Muy bien</th>
+            <th>1-Insaticfactorio <br/> 5-Muy satisfactorio </th>
         
             <td>1</td>
         
@@ -188,12 +201,12 @@
     </div>
       <br/>  <br/><br/><br/>
 
-    <h3>¿Tienes algún comentario o sugerencia?</h3>
+    <h3>¿Tienes algún comentario o sugerencia?</h3><br/>
 
-    <fieldset style="width: 300px; margin-left: 20px;">
-    <legend> Escribe con amor </legend>
+    <fieldset style="width: 700px; margin-left: 20px;">
+    <legend> --Deja tu opinión-- </legend>
 				<label for="descripcion"></label> <br/>
-				<textarea id="descripcion" name="descripcion" cols="60" rows="5"></textarea><br /><br />		
+				<textarea id="descripcion" name="descripcion" cols="150" rows="20"></textarea><br /><br />		
 			</fieldset>
 
       
