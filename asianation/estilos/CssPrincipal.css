@@ -34,7 +34,10 @@ p{
     font-family: 'Cormorant Garamond', serif;
 
 }
-
+td{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+}
 nav{
     max-width: 800px;
     margin: auto;
