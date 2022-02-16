@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+  
+<title>AsiaNation Encuesta de Satisfacción</title>
+<link rel="stylesheet" type= "text/css" href="estilos/CssPrincipal.css">
+<style>
+                @import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+                @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+    
+        
+    
+
+    h1{
+        font-family: 'tangerine';
+        font-size: 70px;
+        text-align: center;
+    }
+    h3{
+        font-family: 'Cormorant Garamond', serif;
+        font-size: x-large;
+    }
+    body{
+        background-color: rgb(236, 176, 103);
+        border: 5px rgb(95, 74, 50) double;
+        
+        padding: 2em;
+        background-image: url(imagenes/india/fotolado.jpg);
+        background-image: ;
+        font-weight: bolder;
+        font-size: x-large;
+        backdrop-filter: url(commonfilters.svg#filter);
+        backdrop-filter: blur(2px);
+        backdrop-filter: brightness(60%);
+        backdrop-filter: contrast(40%);  
+        
+    }
+    div{
+        
+        margin: 20px;
+        border: 8px rgb(88, 85, 56) double;
+        padding: 20px;
+        width: 70%;
+        font-weight: bolder;
+        font-size: larger;
+        color: rgb(202, 133, 41);
+        font-family: 'Cormorant Garamond', serif;
+    }
+   th{
+        border: 1px orange dotted;
+    }
+    td{
+        text-align: right;
+        font-family: 'Cormorant Garamond', serif;
+        
+    }
+    input{
+        font-family: 'Cormorant Garamond', serif;
+    }
+</style>
+</head>
+<body>
+    <h1>AsiaNation Encuesta de Satisfacción</h1> 
+    <br/>
+    <h3>¿Con qué frecuencia visitas el restaurante AsiaNation? </h3>
+	
+     <br />
+    <input type="radio" name="est" value="todos los dias"  /> Todos los días <br />
+    <input type="radio" name="est" value="Una vez a la semana" />Una vez a la semana<br />
+    <input type="radio" name="est" value="De vez en cuando" />De vez en cuando <br />
+    <input type="radio" name="est" value="Es la primera vez" /> Es la primera vez <br />
+    <input type="radio" name="est" value="Otro" /> Otro
+	<input type="text" name="nombre" placeholder="Max. caracteres: 100" size="70" maxlength="100"/><br/> <br/>
+    <br/>
+
+    <h3>¿Cuál es tu nivel de satisfacción?</h3>
+    <br/>
+		
+          <input type="radio" name="nombre"  value="Satisfecho" /> Muy satisfecho <br/>
+          <input type="radio" name="nombre"  value="Satisfecho"/> Satisfecho <br/>
+          <input type="radio" name="nombre"  value="Poco satisfecho" /> Poco satisfecho <br/>
+          <input type="radio" name="nombre"  value="Nada satisfecho" /> Nada satisfecho <br/><br/>
+
+    
+    
+    <h3>Evalúe estos aspectos</h3>
+
+    <div > <table style="border: none; height: fit-content; width: 800px;" cellspacing="30" >
+       
+        <tr>
+
+            <th>1-Insaticfactorio <br/> 5-Muy satisfactorio </th>
+        
+            <td>1</td>
+        
+            <td>2</td>
+
+            <td>3</td>
+        
+            <td>4</td>
+
+            <td>5</td>
+            
+        </tr>
+        <tr>
+
+            <th>Los precios  </th>
+        
+            <td> <input type="radio" name="est" value="1"  /> </td>
+        
+            <td><input type="radio" name="est" value="2" />   </td>
+
+            <td><input type="radio" name="est" value="3" /></td>
+              
+           <td> <input type="radio" name="est" value="4" />  </td>
+
+            <td> <input type="radio" name="est" value="5" /> </td>
+           
+        </tr>
+
+        <tr>
+
+            <th>La variedad</th>
+        
+            <td> <input type="radio" name="esta" value="1" />  </td>     
+        
+            <td><input type="radio" name="esta" value="2" /></td>
+
+            <td> <input type="radio" name="esta" value="3" /></td>
+        
+            <td> <input type="radio" name="esta" value="4" />  </td>
+
+            <td><input type="radio" name="esta" value="5" /></td>
+            
+        </tr>
+
+        <tr>
+
+            <th>El sabor</th>
+        
+            <td><input type="radio" name="esto" value="1"  /> </td>  
+                 
+            <td> <input type="radio" name="esto" value="2" /></td>
+
+            <td><input type="radio" name="esto" value="3" /></td>
+        
+            <td> <input type="radio" name="esto" value="4" />  </td>
+
+            <td><input type="radio" name="esto" value="5" /></td>
+            
+        </tr>
+
+        <tr>
+
+            <th>El personal</th>
+        
+            <td><input type="radio" name="este" value="1"  />  </td> 
+        
+            <td> <input type="radio" name="este" value="2" /></td>
+
+            <td><input type="radio" name="este" value="3" /></td>
+        
+            <td> <input type="radio" name="este" value="4" />  </td>
+
+            <td>  <input type="radio" name="este" value="5" /></td>
+            
+        </tr>
+
+        <tr>
+
+            <th> La presentación    </th>
+          
+        
+            <td>  <input type="radio" name="esti" value="1">  </td>     
+        
+            <td><input type="radio" name="esti" value="2" /></td>
+
+            <td> <input type="radio" name="esti" value="3" /></td>
+        
+            <td><input type="radio" name="esti" value="4" /> </td>
+
+            <td><input type="radio" name="esti" value="5" /> </td>
+            
+        </tr>
+
+        <tr>
+
+            <th>La limpieza </th>
+        
+            <td><input type="radio" name="estu" value="1"  />   </td>
+        
+            <td><input type="radio" name="estu" value="2" /></td>
+
+            <td> <input type="radio" name="estu" value="3" /></td>
+        
+            <td> <input type="radio" name="estu" value="4" /> </td>
+
+            <td><input type="radio" name="estu" value="5" /></td>
+            
+        </tr>
+                   
+        
+
+            </table>
+    </div>
+      <br/>  <br/><br/><br/>
+
+    <h3>¿Tienes algún comentario o sugerencia?</h3><br/>
+
+    <fieldset style="width: 700px; margin-left: 20px;">
+    <legend> --Deja tu opinión-- </legend>
+				<label for="descripcion"></label> <br/>
+				<textarea id="descripcion" name="descripcion" cols="150" rows="20"></textarea><br /><br />		
+			</fieldset>
+
+      
+  
+           
+
+</body>
+</html>
