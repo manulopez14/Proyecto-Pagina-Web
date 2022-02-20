@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="estilos/CssPrincipal.css">
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/asiaround.jpg" />
 <title>AsiaNation</title>
 
 <style>
@@ -40,8 +41,10 @@
     }
 
     .summaryText{
-        font-size: x-large;
+        font-size: xx-large;
         text-align: center;
+        color: white;
+        text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
         opacity: 0;
     }
 
@@ -87,7 +90,7 @@
         background-image: url("imagenes/corea1.jpg");
         background-size: cover;
         background-position: left;
-        background-color: blue;
+        background-color: transparent;
         width: 80%;
         height: 175px;
         float: right;
@@ -95,13 +98,14 @@
         border-bottom-left-radius: 25px;
         transition-duration: 1s;
         margin-bottom: 20px;
-        padding: 70px;
+        padding: 60px;
     }
 
     #divChina{
         background-image: url("imagenes/china1.jpg");
         background-size: cover;
         background-position: top;
+        background-color: transparent;
         width: 80%;
         height: 175px;
         float: left;
@@ -116,7 +120,7 @@
         background-image: url("imagenes/india1.jpg");
         background-size: cover;
         background-position: left;
-        background-color: green;
+        background-color: transparent;
         width: 80%;
         height: 175px;
         float: right;
@@ -136,22 +140,22 @@
     }
 
     #divJapon:hover{
-        animation: fade 3s forwards;
-        animation-duration: 3s;
+        filter: opacity(.7);
+        transition-duration: 1s;
     }
 
     #divCorea:hover{
-        filter: opacity(.5);
+        filter: opacity(.7);
         transition-duration: 1s;
     }
 
     #divChina:hover{
-        filter: opacity(.5);
+        filter: opacity(.7);
         transition-duration: 1s;
     }
 
     #divIndia:hover{
-        filter: opacity(.5);
+        filter: opacity(.7);
         transition-duration: 1s;
     }
 
@@ -159,14 +163,22 @@
         animation: ani2 1s ease-out forwards;
     }
 
+    #divCorea:hover .summaryText{
+        animation: ani2 1s ease-out forwards;
+    }
+
+    #divChina:hover .summaryText{
+        animation: ani2 1s ease-out forwards;
+    }
+
+    #divIndia:hover .summaryText{
+        animation: ani2 1s ease-out forwards;
+    }
+
     @keyframes ani2{
         100%{
             opacity: 1;
         }
-    }
-
-    @keyframes fade{
-        to {background: transparent;}
     }
 
     </style>
@@ -178,6 +190,7 @@
     <b><p class="AsiaNation" style="text-shadow: 3px 0 0 #fff, -3px 0 0 #fff, 0 3px 0 #fff, 0 -3px 0 #fff, 2px 2px #fff, -2px -2px 0 #fff, 2px -2px 0 #fff, -2px 2px 0 #fff;">AsiaNation</p></b>
     <nav>
         <ul class="MenuH">
+            <li><a href="index.html">Home</a></li>
             <li><a href="#">País</a>
                 <ul class="MenuV">
                     <li><a href="India.html">India</a></li>
@@ -193,6 +206,8 @@
                     <li><a href="https://www.facebook.com/Asianation2022/">Facebook</a></li>
                     <br />
                     <li><a href="https://twitter.com/Asianation22?t=kXNOBHtTB8kL7LxRp0hLyw&s=09">Twitter</a></li>
+                    <br />
+                    <li><a href="https://www.instagram.com/_.asianation_/?utm_medium=copy_link">Instagram</a></li>
                 </ul>
             </li>
             <li> <a href="mailto:acontreras1852000@gmail.com">Contáctanos</a></li>
@@ -210,7 +225,8 @@
         <p class="text">Disfruta de la mejor selección de platos de cuatro de los países con la gastronomía <br />
                         más influyente del continente, seleccionados por expertos en la materia y cocinados por <br />
                         cuatro chefs locales de alto renombre. </p>
-        <p class="text">Sumérgete en una variedad de sabores que sin duda <br />
+                        <br />
+        <p class="text">Sumérgete en una variedad de sabores que <br />
                         no te dejará indiferente.</p>
 
     </div>
@@ -256,7 +272,6 @@
         <p class="textwhite">Estamos ubicados en: C/ Falsa, 123, Aldea en Cabo, Toledo. <br /> Código Postal: 45908</p>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.0832786406813!2d-4.4603490843561655!3d40.18496007762603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be095154d712f6!2sC.%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo!5e0!3m2!1ses!2ses!4v1645286831768!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
-    
 
 </body>
 </html>
