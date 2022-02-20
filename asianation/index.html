@@ -39,6 +39,12 @@
         opacity: 0;
     }
 
+    .summaryText{
+        font-size: x-large;
+        text-align: center;
+        opacity: 0;
+    }
+
     .textwhite{
         color: #f1efe8;
         font-size: 30px;
@@ -47,18 +53,34 @@
         opacity: 0;
     }
 
+    .hovertext{
+        background-color: transparent;
+    }
+
+    #divMapa{
+        padding: 2%;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 45%;
+        align-items: center;
+        
+        
+    }
+
     #divJapon{
         background-image: url("imagenes/japon1.jpg");
         background-size: cover;
         background-position: left;
-        background-color: red;
+        background-color: transparent;
         width: 80%;
-        height: 20%;
+        height: 175px;
         float: left;
         border-bottom-right-radius: 25px;
         border-top-right-radius: 25px;
         transition-duration: 1s;
         margin-bottom: 20px;
+        padding: 70px;
+        border: 1px solid black;
     }
 
     #divCorea{
@@ -67,12 +89,13 @@
         background-position: left;
         background-color: blue;
         width: 80%;
-        height: 20%;
+        height: 175px;
         float: right;
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
         transition-duration: 1s;
         margin-bottom: 20px;
+        padding: 70px;
     }
 
     #divChina{
@@ -80,12 +103,13 @@
         background-size: cover;
         background-position: top;
         width: 80%;
-        height: 20%;
+        height: 175px;
         float: left;
         border-bottom-right-radius: 25px;
         border-top-right-radius: 25px;
         transition-duration: 1s;
         margin-bottom: 20px;
+        padding: 70px;
     }
 
     #divIndia{
@@ -94,12 +118,13 @@
         background-position: left;
         background-color: green;
         width: 80%;
-        height: 20%;
+        height: 175px;
         float: right;
         border-top-left-radius: 25px;
         border-bottom-left-radius: 25px;
         transition-duration: 1s;
         margin-bottom: 20px;
+        padding: 70px;
     }
 
     .textappear{
@@ -111,8 +136,8 @@
     }
 
     #divJapon:hover{
-        filter: opacity(.5);
-        transition-duration: 1s;
+        animation: fade 3s forwards;
+        animation-duration: 3s;
     }
 
     #divCorea:hover{
@@ -130,10 +155,18 @@
         transition-duration: 1s;
     }
 
+    #divJapon:hover .summaryText{
+        animation: ani2 1s ease-out forwards;
+    }
+
     @keyframes ani2{
         100%{
             opacity: 1;
         }
+    }
+
+    @keyframes fade{
+        to {background: transparent;}
     }
 
     </style>
@@ -191,26 +224,37 @@
     <br />
     <div>
         <p class="textwhite"></p>
-        <div id="divJapon">
-            <p class="text">Japón: conocida por su versatilidad,
-                             nuestra cocina japonesa tradicional sin duda te transportará al país nipón.</p>
-            <br /><br /><br /><br /><br /><br /><br /><br />
-        </div>
+        <a href="Japon.html">
+            <div id="divJapon">
+                <p class="summaryText">Japón: conocida por su versatilidad,
+                                nuestra cocina japonesa tradicional sin duda te transportará al país nipón.</p>
+            </div>
+        </a>
+        <a href="Corea.html">
         <div id="divCorea">
-            <p class="text">Corea: la opción ideal para todo tipo de paladares, ya sean atrevidos 
+            <div class="hovertext">
+                <p class="summaryText">Corea: la opción ideal para todo tipo de paladares, ya sean atrevidos 
                             o refinados que deseen comprobar la calidad de los platos típicos de Corea.</p>
-            <br /><br /><br /><br /><br /><br /><br /><br />
+            </div> 
         </div>
-        <div id="divChina">
-            <p class="text">China: disfruta de los platos más conocidos y deliciosos
-                             del continente asiático </p>
-            <br /><br /><br /><br /><br /><br /><br /><br />
-        </div>
-        <div id="divIndia">
-            <p class="text">India: ¡Escoge estos menús si eres un auténtico amante
-                             de las especias exóticas y los sabores picantes!</p>
-            <br /><br /><br /><br /><br /><br /><br /><br />
-        </div>
+        </a>
+        <a href="China.html">
+            <div id="divChina">
+                <p class="summaryText">China: disfruta de los platos más conocidos y deliciosos
+                                del continente asiático </p>
+            </div>
+        </a>
+        <a href="India.html">
+            <div id="divIndia">
+                <p class="summaryText">India: ¡Escoge estos menús si eres un auténtico amante
+                                de las especias exóticas y los sabores picantes!</p>
+                <br /><br /><br /><br /><br /><br /><br /><br />
+            </div>
+        </a>
+    </div>
+    <div id="divMapa">
+        <p class="textwhite">Estamos ubicados en: C/ Falsa, 123, Aldea en Cabo, Toledo. <br /> Código Postal: 45908</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.0832786406813!2d-4.4603490843561655!3d40.18496007762603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4035b57551b6f3%3A0x84be095154d712f6!2sC.%20Falsa%2C%2045908%20Aldea%20en%20Cabo%2C%20Toledo!5e0!3m2!1ses!2ses!4v1645286831768!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     
 
